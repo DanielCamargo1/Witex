@@ -1,5 +1,5 @@
 body{
-    background-color:#1e3fff;
+    background-color:#2e76fa;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -17,13 +17,20 @@ body{
     background-size: cover; 
 }
 
-h1{
-    color:#080C59;
-    text-align: center;
-    margin: 3%;
-    font-size: 220%
+.logo{
+    width: 15%;
+    margin: 0 auto;
+    display: block;
 }
 
+h1{
+    color:#080C59;
+    text-align: left;
+    display: block;
+    margin: 3%;
+    font-size: 220%;
+    margin-top:0;
+}
 
 .chamativo{
     color: #1455D9;
@@ -31,12 +38,49 @@ h1{
 
 .txtchamativo{
     color: #1455D9;
-    font-size: 160%;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
+
+/* .aguaCaindo{
+    margin-left: -6%;
+    width: 30%;
+}
+.slider-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    animation: slide 5s infinite ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
 
 h2{
     text-align: center;
-    margin:2%;
+    margin:2%;  
     color: #0528F2;
 }
 
