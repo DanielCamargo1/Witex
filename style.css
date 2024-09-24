@@ -1,9 +1,21 @@
 body{
-    background-color: rgb(235, 230, 230);
+    background-color:#1e3fff;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.container{
+    margin: 0;
+}
+
+.header{
+    background-image: url("img/23105921-suave-borrado-branco-tecido-textura-fundo-vetor.jpg");
+    background-repeat: no-repeat;
+    height: 700px; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
 
 h1{
     color:#080C59;
