@@ -44,6 +44,16 @@ h1{
     display: block;
 }
 
+.IaInteligente{
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+p{
+    margin:2%;
+}
+
 /* .aguaCaindo{
     margin-left: -6%;
     width: 30%;
