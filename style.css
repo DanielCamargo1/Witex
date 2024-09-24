@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(235, 230, 230);
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    color:#080C59;
+    text-align: center;
+    margin: 3%;
+    font-size: 220%
+}
+
+
+.chamativo{
+    color: #1455D9;
+}
+
+.txtchamativo{
+    color: #1455D9;
+    font-size: 160%;
+}
+
+h2{
+    text-align: center;
+    margin:2%;
+    color: #0528F2;
+}
+
