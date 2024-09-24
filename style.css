@@ -127,12 +127,17 @@ h2{
     color: aliceblue;
 }
 
-.BemVindoTxt{
+.BemVindoTxt {
     color: aliceblue;
     font-size: 300%;
 }
 
-.text{
+.offerh2{
+    color: aliceblue;
+    font-size: 300%;
+}
+
+.text, .offer{
     color: aliceblue;
     margin:8%;
     font-size: 140%;
@@ -160,4 +165,35 @@ li{
     margin-top: 5%;
     color: #060c7e;
     font-size: 140%;
+}
+
+.urgency{
+    color: white;
+    margin: 8%;
+    font-size: 140%;
+}
+
+.cta-button{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: green;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    display: inline-block; 
+    margin: 0 auto;
+    margin-bottom: 3%;
+    animation: pulse 1.5s infinite; 
+    transition: transform 0.2s ease-in-out;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); 
+    }
+    100% {
+        transform: scale(1);
+    }
 }
