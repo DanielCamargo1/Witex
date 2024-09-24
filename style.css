@@ -6,15 +6,17 @@ body{
 
 .container{
     margin: 0;
+    
 }
 
 .header{
-    background-image: url("img/23105921-suave-borrado-branco-tecido-textura-fundo-vetor.jpg");
+    background-image: url("img/imgback.jpg");
     background-repeat: no-repeat;
-    height: 700px; 
+    height: 600px; 
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 
+    
 }
 
 .logo{
@@ -44,25 +46,51 @@ h1{
     display: block;
 }
 
-.IaInteligente{
-    width: 40%;
-    position: absolute;
-    right: 0;
+.textHeader{
+    margin:8%;
+    font-size:large;
+    color:#060c7e;
 }
 
-p{
-    margin:2%;
+.typed-text {
+    font-size: 24px;
+    border-right: 2px solid black;
+    text-align: center;
+    margin:0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(30, end) infinite, blink 0.75s step-end infinite;
 }
 
-/* .aguaCaindo{
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 49%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.aguaCaindo{
     margin-left: -6%;
-    width: 30%;
+    width: 30%;   
 }
+
 .slider-container {
     width: 300px;
     height: 300px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    right: -10%;
 }
 
 .slider {
@@ -74,6 +102,7 @@ p{
 .slider img {
     width: 100%;
     height: auto;
+    
 }
 
 @keyframes slide {
@@ -81,12 +110,12 @@ p{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-30%);
+        transform: translateY(-20%);
     }
     100% {
         transform: translateY(0);
     }
-} */
+} 
 
 h2{
     text-align: center;
@@ -94,3 +123,41 @@ h2{
     color: #0528F2;
 }
 
+.BemVindo{
+    color: aliceblue;
+}
+
+.BemVindoTxt{
+    color: aliceblue;
+    font-size: 300%;
+}
+
+.text{
+    color: aliceblue;
+    margin:8%;
+    font-size: 140%;
+}
+
+.porque{
+    background-color:aliceblue;
+}
+
+.PorqueTxt{
+    color: #0528F2;
+    font-size: 300%;
+}
+
+.now{
+    font-size: 130%;
+    color: #0528F2;
+}
+
+ul{
+    margin: 8%;
+}
+
+li{
+    margin-top: 5%;
+    color: #060c7e;
+    font-size: 140%;
+}
